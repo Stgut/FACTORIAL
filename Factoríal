@@ -1,0 +1,28 @@
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+long fac(int y);
+
+
+int main() {
+    int n;
+     
+    printf("Por favor ingrese el número\n");
+    scanf("%d", &y);
+    
+    int fac(y); 
+    printf("%d", fac(y)); 
+    return 0;
+}
+
+int fac(int n){
+    if (n==0) return 1;
+    else{
+        return n*fac(n-1);
+    }
+}
